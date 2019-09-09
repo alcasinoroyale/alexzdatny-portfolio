@@ -1,0 +1,66 @@
+.profile-container {
+  text-align: center;
+}
+
+.profile-container h1 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-container h3 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.social-media-icons .git {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.social-media-icons .twitter {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.social-media-icons .linkedin {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.github-icon {
+  font-size: 40px;
+  color: #404040;
+  padding: 20px;
+}
+
+.github-icon:hover {
+  font-size: 50px;
+}
+
+.twitter-icon {
+  font-size: 40px;
+  color: #55ACEE;
+  padding: 20px;
+}
+
+.twitter-icon:hover {
+  font-size: 50px;
+}
+
+.linkedin-icon {
+  font-size: 40px;
+  color: #0e76a8;
+  padding: 20px;
+}
+
+.linkedin-icon:hover {
+  font-size: 50px;
+}

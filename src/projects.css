@@ -1,0 +1,28 @@
+.projects {
+  text-align: center;
+  padding: 10px;
+}
+
+.projects h2 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: white;
+}
+
+.projects h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.projects button {
+  font-size: 14px;
+  background-color: #60858f;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border: 1px solid white;
+}
+
+.projects button:hover {
+  background-color: #659b9c;
+}

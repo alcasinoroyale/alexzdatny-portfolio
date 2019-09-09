@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProfileContainer from './containers/ProfileContainer';
+import ProjectsContainer from './containers/ProjectsContainer';
 
 const App = () => {
   return(
@@ -12,7 +13,8 @@ const App = () => {
         <Route>
           <Navbar />
         </Route>
-        <ProfileContainer />
+          <ProfileContainer />
+          <ProjectsContainer />
         <div className="routes">
         </div>
       </Router>
