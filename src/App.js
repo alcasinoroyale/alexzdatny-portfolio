@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import ProfileContainer from './containers/ProfileContainer';
 
 const App = () => {
   return(
@@ -8,8 +10,9 @@ const App = () => {
       <div className="container">
       <Router>
         <Route>
-        <h1>Alex Zdatny Portfolio</h1>
+          <Navbar />
         </Route>
+        <ProfileContainer />
         <div className="routes">
         </div>
       </Router>
