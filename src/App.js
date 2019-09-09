@@ -6,6 +6,7 @@ import ProfileContainer from './containers/ProfileContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
 import About from './components/About';
 import Contact from './components/Contact';
+import ItineraryHub from './components/ItineraryHub';
 
 const App = () => {
   return(
@@ -20,6 +21,7 @@ const App = () => {
         <div className="routes">
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/the-itinerary-hub" component={ItineraryHub}/>
         </div>
       </Router>
       </div>
