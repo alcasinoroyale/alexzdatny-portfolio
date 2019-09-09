@@ -1,7 +1,8 @@
 body {
-  background-image: url("images/mountains.jpg");
-  background-color: #22444D;
+  background-color: black;
   background-size: cover;
+  background-image: url("images/mountains.jpg");
+  background-attachment: fixed;
 }
 
 .navMenu {
@@ -89,4 +90,12 @@ body {
   color: #f2f2f2;
   background-color: #5d7a85;
   display: block;
+}
+
+.coding {
+  height: 275px;
+}
+
+.albums {
+  height: 275px;
 }

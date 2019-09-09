@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900&display=swap');
+
 .profile-container {
   text-align: center;
 }
 
 .profile-container h1 {
-  text-transform: uppercase;
-  letter-spacing: 6px;
   color: white;
-  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
 }
 
 .profile-container h3 {
   color: white;
+  margin-top: -30px;
   letter-spacing: 2px;
 }
 
@@ -36,31 +38,31 @@
 }
 
 .github-icon {
-  font-size: 40px;
+  font-size: 50px;
   color: #404040;
   padding: 20px;
 }
 
 .github-icon:hover {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .twitter-icon {
-  font-size: 40px;
+  font-size: 50px;
   color: #55ACEE;
   padding: 20px;
 }
 
 .twitter-icon:hover {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .linkedin-icon {
-  font-size: 40px;
+  font-size: 50px;
   color: #0e76a8;
   padding: 20px;
 }
 
 .linkedin-icon:hover {
-  font-size: 50px;
+  font-size: 60px;
 }
