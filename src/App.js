@@ -7,8 +7,8 @@ import ProjectsContainer from './containers/ProjectsContainer';
 import About from './components/About';
 import Contact from './components/Contact';
 import ItineraryHub from './components/ItineraryHub';
-import Renecades from './components/Renecades'
 import Reel2Real from './components/Reel2Real';
+import Renecades from './components/Renecades'
 
 const App = () => {
   return(
@@ -24,8 +24,8 @@ const App = () => {
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/the-itinerary-hub" component={ItineraryHub}/>
-          <Route exact path="/renecades-gameroom" component={Renecades}/>
           <Route exact path="/reel2real" component={Reel2Real}/>
+          <Route exact path="/renecades-gameroom" component={Renecades}/>
         </div>
       </Router>
       </div>

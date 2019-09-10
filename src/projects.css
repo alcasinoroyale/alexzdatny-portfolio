@@ -12,6 +12,7 @@
 .projects h3 {
   color: white;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .projects button {
@@ -46,7 +47,8 @@
 .project-box h1 {
   color: #f2f2f2;
   text-align: center;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .project-box h3 {
