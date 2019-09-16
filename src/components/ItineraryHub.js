@@ -1,4 +1,6 @@
 import React from 'react'
+import itineraryhub from '../images/itinerary-hub.png'
+import ihprofile from '../images/ih-profile.png'
 import ProjectsContainer from '../containers/ProjectsContainer'
 import '../projects.css';
 
@@ -19,11 +21,16 @@ const ItineraryHub = () => {
 
       <h3>An organized itinerary builder for occasional and frequent travelers</h3>
 
-      <ul><h4>
-        <li>Developed a Sinatra API for users to create multiple itineraries</li>
-        <li>Implemented MVC framework to structure the user interface</li>
-        <li>Utilized Active Record for validations and storing user information</li>
-      </h4></ul>
+      <div class="ih-images">
+        <img src={itineraryhub} class="itineraryhub" alt="itineraryhub" />
+        <img src={ihprofile} class="ihprofile" alt="ihprofile" />
+      </div>
+
+        <h4><ul class="ih-info">
+          <li>Developed a Sinatra API for users to create multiple itineraries</li>
+          <li>Implemented MVC framework to structure the user interface</li>
+          <li>Utilized Active Record for validations and storing user information</li>
+        </ul></h4>
       </div>
     </div>
   )
