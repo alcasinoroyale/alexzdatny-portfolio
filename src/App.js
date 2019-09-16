@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import ProfileContainer from './containers/ProfileContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import ItineraryHub from './components/ItineraryHub';
 import Reel2Real from './components/Reel2Real';
@@ -23,6 +24,7 @@ const App = () => {
         <div className="routes">
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/the-itinerary-hub" component={ItineraryHub}/>
           <Route exact path="/reel2real" component={Reel2Real}/>
           <Route exact path="/renecades-gameroom" component={Renecades}/>
