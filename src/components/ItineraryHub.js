@@ -1,8 +1,13 @@
 import React from 'react'
+import ProjectsContainer from '../containers/ProjectsContainer'
 import '../projects.css';
 
 const ItineraryHub = () => {
   return (
+    <div>
+      <div class="projects">
+        <ProjectsContainer />
+      </div>
     <div className="project-box">
       <h1>The Itinerary Hub</h1>
 
@@ -19,7 +24,7 @@ const ItineraryHub = () => {
         <li>Implemented MVC framework to structure the user interface</li>
         <li>Utilized Active Record for validations and storing user information</li>
       </h4></ul>
-
+      </div>
     </div>
   )
 }

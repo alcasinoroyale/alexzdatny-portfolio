@@ -1,9 +1,14 @@
 import React from 'react'
 import reel2real from '../images/reel2real.png'
+import ProjectsContainer from '../containers/ProjectsContainer'
 import '../projects.css';
 
 const Reel2Real = () => {
   return (
+    <div>
+    <div className="projects">
+      <ProjectsContainer />
+    </div>
     <div className="project-box">
       <h1>Reel 2 Real</h1>
 
@@ -23,7 +28,7 @@ const Reel2Real = () => {
         <li>Employed Redux Actions and Reducers to control user and film functions</li>
         <li>Designed user interface combining React and CSS styling</li>
       </h4></ul>
-
+      </div>
     </div>
   )
 }

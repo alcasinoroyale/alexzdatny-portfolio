@@ -10,6 +10,7 @@ const Contact = () => {
             <textarea id="message" placeholder="Message" name="message" />
             <input type="submit" value="Send Message" />
         </form>
+        <h2>alexzdatny@gmail.com</h2>
     </div>
   )
 }

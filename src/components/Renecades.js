@@ -1,9 +1,14 @@
 import React from 'react'
+import ProjectsContainer from '../containers/ProjectsContainer'
 import renecades from '../images/renecades.png'
 import '../projects.css';
 
 const Renecades = () => {
   return (
+    <div>
+    <div className="projects">
+      <ProjectsContainer />
+    </div>
     <div className="project-box">
       <h1>Renecades Gameroom</h1>
 
@@ -23,7 +28,7 @@ const Renecades = () => {
         <li>Utilized Active Record to manipulate data and perform database operations</li>
         <li>Built Additional Javascript Features for customization and efficiency</li>
       </h4></ul>
-
+      </div>
     </div>
   )
 }
