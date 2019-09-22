@@ -15,7 +15,7 @@ const Renecades = () => {
       <div className="links">
         | <a href="https://www.youtube.com/watch?v=IehMYEGl520" target="_blank" rel="noopener noreferrer">Demo</a> |
         | <a href="https://github.com/alcasinoroyale/renecades_gameroom" target="_blank" rel="noopener noreferrer">GitRepo</a> |
-        | <a href="" target="_blank" rel="noopener noreferrer">Heroku</a> |
+        | <a href="https://renecades-gameroom-javascript.herokuapp.com" target="_blank" rel="noopener noreferrer">Heroku</a> |
       </div>
 
       <h3>Play Games, Earn Rewards, Climb the Leaderboard</h3>
