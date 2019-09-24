@@ -11,26 +11,30 @@ const ItineraryHub = () => {
         <ProjectsContainer />
       </div>
     <div className="project-box">
+
       <h1>The Itinerary Hub</h1>
 
-      <div className="links">
-        | <a href="https://www.youtube.com/watch?v=V9HRpfhfyFQ" target="_blank" rel="noopener noreferrer">Demo</a> |
-        | <a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitRepo</a> |
-        | <a href="" target="_blank" rel="noopener noreferrer">Heroku</a> |
+      <div className="demo">
+        <iframe width="672" height="378" title="tih" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <h3>An organized itinerary builder for occasional and frequent travelers</h3>
+      <div className="description">
+        <h4>The Itinerary Hub is CRUD, MVC application built with a Sinatra framework.
+        This app gives users the ability to create their own itineraries.
+        Each itinerary has a travel guide and schedule as well as destinations that users can build.
+        All of user data is handled in the SQLitle3 database and can be accessed by Active Record.
+        Users have access to the Itinerary index where they can share their ideas with other occassional and frequent travelers.</h4>
 
-      <div class="ih-images">
-        <img src={itineraryhub} class="itineraryhub" alt="itineraryhub" />
-        <img src={ihprofile} class="ihprofile" alt="ihprofile" />
+        <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
+         <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+
       </div>
 
-        <h4><ul class="ih-info">
-          <li>Developed a Sinatra API for users to create multiple itineraries</li>
-          <li>Implemented MVC framework to structure the user interface</li>
-          <li>Utilized Active Record for validations and storing user information</li>
-        </ul></h4>
+        <div class="ih-images">
+          <img src={itineraryhub} class="itineraryhub" alt="itineraryhub" />
+          <img src={ihprofile} class="ihprofile" alt="ihprofile" />
+        </div>
+
       </div>
     </div>
   )
