@@ -15,7 +15,7 @@ const ItineraryHub = () => {
       <h1>The Itinerary Hub</h1>
 
       <div className="demo">
-        <iframe width="672" height="378" title="tih" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="672" height="378" title="itineraryhub" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div className="description">
@@ -26,7 +26,7 @@ const ItineraryHub = () => {
         Users have access to the Itinerary index where they can share their ideas with other occassional and frequent travelers.</h4>
 
         <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
-         <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+        <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
 
       </div>
 

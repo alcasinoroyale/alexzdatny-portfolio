@@ -6,28 +6,33 @@ import '../projects.css';
 const Reel2Real = () => {
   return (
     <div>
-    <div className="projects">
-      <ProjectsContainer />
-    </div>
-    <div className="project-box">
-      <h1>Reel 2 Real</h1>
-
-      <div className="links">
-          | <a href="https://www.youtube.com/watch?v=9Y_7DNIwz54" target="_blank" rel="noopener noreferrer">Demo</a> |
-          | <a href="https://github.com/alcasinoroyale/film-scope" target="_blank" rel="noopener noreferrer">GitRepo</a> |
-          | <a href="" target="_blank" rel="noopener noreferrer">Heroku</a> |
+      <div className="projects">
+        <ProjectsContainer />
       </div>
 
-      <h3>Search for a variety of films and create your own list of favorites.</h3>
+      <div className="project-box">
+        <h1>Reel 2 Real</h1>
 
-      <h3><img src={reel2real} class="reel2real" alt="reel2real" /></h3>
+        <div className="demo">
+          <iframe width="672" height="378" title="reel2Real" src="https://www.youtube.com/embed/9Y_7DNIwz54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-      <ul><h4>
-        <li>Integrated a Rails API with React-Redux FrontEnd through TheMovieDB</li>
-        <li>Created class and functional components to handle user interaction</li>
-        <li>Employed Redux Actions and Reducers to control user and film functions</li>
-        <li>Designed user interface combining React and CSS styling</li>
-      </h4></ul>
+        <div className="description">
+          <h4>Reel 2 Real is a React application integrated with a Rails API where users can search for a variety of films and create their own list of favorites.</h4>
+
+        <ul><h4>
+          <li>Integrated a Rails API with React-Redux FrontEnd through TheMovieDB</li>
+          <li>Created class and functional components to handle user interaction</li>
+          <li>Employed Redux Actions and Reducers to control user and film functions</li>
+          <li>Designed user interface combining React and CSS styling</li>
+        </h4></ul>
+
+        <h2><a href="https://github.com/alcasinoroyale/film-scope" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="http://alexzdatny.com/reel_2_real_react-redux_portfolio_project" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+        </div>
+
+        <h3><img src={reel2real} class="reel2real" alt="reel2real" /></h3>
+
       </div>
     </div>
   )
