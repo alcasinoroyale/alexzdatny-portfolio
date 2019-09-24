@@ -29,22 +29,6 @@
   background-color: #659b9c;
 }
 
-.links {
-  font-size: 18px;
-  text-align: center;
-  font-weight: bold;
-  word-spacing: 10px;
-}
-
-.links a {
-  text-decoration: none;
-  color: #f2f2f2;
-}
-
-.links a:hover {
-  color: #3297a8;
-}
-
 .project-box h1 {
   color: #f2f2f2;
   text-align: center;

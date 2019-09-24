@@ -45,6 +45,7 @@ const About = () => {
               <h3>Ruby</h3>
           </div>
       </div>
+
       <div className="interests">
         <h1>Interests</h1>
         <h2>Film, Music, & Coding</h2>
