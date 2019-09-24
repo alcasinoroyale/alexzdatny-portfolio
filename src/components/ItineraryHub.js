@@ -15,15 +15,17 @@ const ItineraryHub = () => {
       <h1>The Itinerary Hub</h1>
 
       <div className="demo">
-        <iframe width="672" height="378" title="itineraryhub" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="672" height="378" title="travel-demo" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div className="description">
-        <h4>The Itinerary Hub is CRUD, MVC application built with a Sinatra framework.
-        This app gives users the ability to create their own itineraries.
-        Each itinerary has a travel guide and schedule as well as destinations that users can build.
-        All of user data is handled in the SQLitle3 database and can be accessed by Active Record.
-        Users have access to the Itinerary index where they can share their ideas with other occassional and frequent travelers.</h4>
+        <h4>The Itinerary Hub is a CRUD, MVC application built with a Sinatra framework where users can create and manage their own itineraries.</h4>
+
+        <ul><h4>
+          <li>Implemented the MVC framework to structure the user interface and handle requests</li>
+          <li>Utilized Active Record for validations and storing user information</li>
+          <li>Applied flash error messages and validations to verify user params</li>
+        </h4></ul>
 
         <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>

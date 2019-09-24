@@ -14,7 +14,7 @@ const Reel2Real = () => {
         <h1>Reel 2 Real</h1>
 
         <div className="demo">
-          <iframe width="672" height="378" title="reel2Real" src="https://www.youtube.com/embed/9Y_7DNIwz54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="672" height="378" title="film-demo" src="https://www.youtube.com/embed/9Y_7DNIwz54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div className="description">
