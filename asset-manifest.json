@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.686635e6.chunk.css",
+    "main.js": "/static/js/main.da4cdd40.chunk.js",
+    "main.js.map": "/static/js/main.da4cdd40.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.8d796868.js",
+    "runtime~main.js.map": "/static/js/runtime~main.8d796868.js.map",
+    "static/js/2.d3640929.chunk.js": "/static/js/2.d3640929.chunk.js",
+    "static/js/2.d3640929.chunk.js.map": "/static/js/2.d3640929.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.29f9afa64bab82543f3744ac239acf1f.js": "/precache-manifest.29f9afa64bab82543f3744ac239acf1f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.686635e6.chunk.css.map": "/static/css/main.686635e6.chunk.css.map",
+    "static/media/albums.png": "/static/media/albums.3f95ef50.png",
+    "static/media/alex-zdatny-resume.pdf": "/static/media/alex-zdatny-resume.d4ecd60c.pdf",
+    "static/media/coding.jpg": "/static/media/coding.cad3ef0f.jpg",
+    "static/media/favoritefilms.png": "/static/media/favoritefilms.5b828de6.png",
+    "static/media/headshot.jpg": "/static/media/headshot.1103ef68.jpg",
+    "static/media/ih-profile.png": "/static/media/ih-profile.ae4b1105.png",
+    "static/media/itinerary-hub.png": "/static/media/itinerary-hub.78457b1d.png",
+    "static/media/App.css": "/static/media/mountains.40328a5c.jpg",
+    "static/media/rails.png": "/static/media/rails.55ef49a9.png",
+    "static/media/react.png": "/static/media/react.9b52d419.png",
+    "static/media/reel2real.png": "/static/media/reel2real.d532156f.png",
+    "static/media/renecades.png": "/static/media/renecades.0837ec05.png"
+  }
+}
