@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f48783add191a63f34c87b23a91a0ac",
+    "revision": "b306e8cceccc15bb8340aa2c642e19e5",
     "url": "/index.html"
   },
   {
-    "revision": "60dcf1c624970691f65c",
+    "revision": "3617d76d5b189d2532e6",
     "url": "/static/css/main.686635e6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d3640929.chunk.js"
   },
   {
-    "revision": "60dcf1c624970691f65c",
-    "url": "/static/js/main.da4cdd40.chunk.js"
+    "revision": "3617d76d5b189d2532e6",
+    "url": "/static/js/main.5420eaed.chunk.js"
   },
   {
     "revision": "a366616fdd0f5ca5aced",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/albums.3f95ef50.png"
   },
   {
-    "revision": "d4ecd60c81ce8fd68ee4052e5991cf54",
-    "url": "/static/media/alex-zdatny-resume.d4ecd60c.pdf"
+    "revision": "7f9c81750d7728e4b493d0eab523d904",
+    "url": "/static/media/alex-zdatny-resume.7f9c8175.pdf"
   },
   {
     "revision": "cad3ef0f9c71c624d38e33882cf508eb",
