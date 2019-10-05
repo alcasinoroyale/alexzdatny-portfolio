@@ -1,5 +1,5 @@
 body {
-  background-color: #192026;
+  background-color: #162f45;
   background-size: cover;
   background-image: url("images/mountains.jpg");
   background-attachment: fixed;
@@ -58,6 +58,12 @@ body {
   line-height: 1.5;
 }
 
+
+.headshot {
+  width: 194px;
+  height: 288px;
+}
+
 .contact {
   background-color: #2b3f45;
   padding: 16px;
@@ -65,11 +71,6 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   color: #f2f2f2;
-}
-
-.headshot {
-  width: 194px;
-  height: 288px;
 }
 
 .contact h1 {
