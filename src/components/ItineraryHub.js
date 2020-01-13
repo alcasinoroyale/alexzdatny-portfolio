@@ -1,6 +1,4 @@
 import React from 'react'
-import itineraryhub from '../images/itinerary-hub.png'
-import ihprofile from '../images/ih-profile.png'
 import ProjectsContainer from '../containers/ProjectsContainer'
 import '../projects.css';
 
@@ -14,11 +12,11 @@ const ItineraryHub = () => {
 
       <h1>The Itinerary Hub</h1>
 
-      <div className="demo">
-        <iframe width="672" height="378" title="travel-demo" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="ih-images">
+        <img src="https://i.imgur.com/jF6KFWu.png" class="itineraryhub" alt="itineraryhub" />
       </div>
 
-      <div className="description">
+      <div className="content">
         <h4>The Itinerary Hub is a CRUD, MVC application built with a Sinatra framework where users can create and manage their own itineraries.</h4>
 
         <ul><h4>
@@ -26,15 +24,15 @@ const ItineraryHub = () => {
           <li>Utilized Active Record for validations and storing user information</li>
           <li>Applied flash error messages and validations to verify user params</li>
         </h4></ul>
-
-        <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
-
       </div>
 
-        <div class="ih-images">
-          <img src={itineraryhub} class="itineraryhub" alt="itineraryhub" />
-          <img src={ihprofile} class="ihprofile" alt="ihprofile" />
+        <div className="content-links">
+          <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+        </div>
+
+        <div className="demo">
+          <iframe width="672" height="378" title="travel-demo" src="https://www.youtube.com/embed/V9HRpfhfyFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
       </div>
