@@ -2,9 +2,9 @@ import React from 'react'
 import coding from '../images/coding.jpg'
 import albums from '../images/albums.png'
 import films from '../images/favoritefilms.png'
+import angular from '../icons/angular.png'
 import atom from '../icons/atom.png'
 import css from '../icons/css.png'
-import git from '../icons/github.png'
 import html from '../icons/html.png'
 import js from '../icons/javascript.png'
 import jq from '../icons/jquery.png'
@@ -23,12 +23,12 @@ const About = () => {
       <div className="skills">
         <h1>Skills</h1>
           <div className="icons">
+            <img src={angular} alt="angular" />
+              <h3>Angular</h3>
             <img src={atom} alt="atom" />
               <h3>Atom</h3>
             <img src={css} alt="css" />
               <h3>CSS 3</h3>
-            <img src={git} alt="git" />
-              <h3>GitHub</h3>
             <img src={html} alt="html" />
               <h3>HTML 5</h3>
             <img src={js} alt="js" />
