@@ -29,7 +29,7 @@ const Renecades = () => {
 
         <h2>
           <a href="https://github.com/alcasinoroyale/renecades_gameroom_with_js" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="http://alexzdatny.com/rails_with_js_project_expanding_renecades" target="_blank" rel="noopener noreferrer">Blog Post</a>
+          <a href="https://alexzdatny.com/rails_with_js_project_expanding_renecades" target="_blank" rel="noopener noreferrer">Blog Post</a>
           <a href="https://renecades-gameroom-javascript.herokuapp.com" target="_blank" rel="noopener noreferrer">Heroku</a>
         </h2>
 

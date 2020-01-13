@@ -28,7 +28,7 @@ const Reel2Real = () => {
         </h4></ul>
 
         <h2><a href="https://github.com/alcasinoroyale/film-scope" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="http://alexzdatny.com/reel_2_real_react-redux_portfolio_project" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+        <a href="https://alexzdatny.com/reel_2_real_react-redux_portfolio_project" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
         </div>
 
         <h3><img src={reel2real} class="reel2real" alt="reel2real" /></h3>

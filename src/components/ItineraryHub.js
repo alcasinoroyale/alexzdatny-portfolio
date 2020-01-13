@@ -28,7 +28,7 @@ const ItineraryHub = () => {
 
         <div className="content-links">
           <h2><a href="https://github.com/alcasinoroyale/the_itinerary_hub" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="http://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
+          <a href="https://alexzdatny.com/the_itinerary_hub_the_sinatra_app" target="_blank" rel="noopener noreferrer">Blog Post</a></h2>
         </div>
 
         <div className="demo">
