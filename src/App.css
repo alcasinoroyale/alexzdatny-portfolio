@@ -62,12 +62,6 @@ body {
   line-height: 1.5;
 }
 
-
-.headshot {
-  width: 194px;
-  height: 288px;
-}
-
 .contact {
   background-color: #203a42;
   padding: 16px;
@@ -144,4 +138,49 @@ body {
   width: 30%;
   background-color: white;
   border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+input[type=text], input[type=email], textarea {
+  max-width: 100%;
+  min-width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 300px;
+}
+
+.contact-content {
+  column-count: 2;
+  column-gap: 60px;
+}
+
+.headshot {
+  width: 194px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info h4 {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type=submit] {
+  background-color: #355c66;
+  padding: 12px 20px;
+  color: #f5f5f5;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
 }
