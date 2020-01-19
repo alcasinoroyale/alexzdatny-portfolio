@@ -16,7 +16,7 @@ const Reel2Real = () => {
         <h3><img src={reel2real} class="reel2real" alt="reel2real" /></h3>
 
         <div className="content">
-          <h4>Reel 2 Real is a React application integrated with a Rails API where users can search for a variety of films and create their own list of favorites.</h4>
+          <h4>REEL 2 REAL is a React application integrated with a Rails API where users can search for a variety of films and create their own list of favorites.</h4>
         <ul><h4>
           <li>Integrated a Rails API with React-Redux FrontEnd through TheMovieDB</li>
           <li>Created class and functional components to handle user interaction</li>

@@ -15,7 +15,7 @@ const Renecades = () => {
       <h3><img src={renecades} class="renecades" alt="renecades" /></h3>
 
       <div className="content">
-        <h4>Renecades Gameroom is a rails application that allows users to create their own exclusive gaming profiles, earn rewards, and compete against other players in the leaderboard.</h4>
+        <h4>RENECADES GAMEROOM is a rails application that allows users to create their own exclusive gaming profiles, earn rewards, and compete against other players in the leaderboard.</h4>
 
         <ul><h4>
           <li>Constructed a Rails API for players to build exclusive gaming profiles</li>

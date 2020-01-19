@@ -17,7 +17,7 @@ const ItineraryHub = () => {
       </div>
 
       <div className="content">
-        <h4>The Itinerary Hub is a CRUD, MVC application built with a Sinatra framework where users can create and manage their own itineraries.</h4>
+        <h4>THE ITINERARY HUB is a Ruby application built with a Sinatra framework where users can create and manage their own itineraries.</h4>
 
         <ul><h4>
           <li>Implemented the MVC framework to structure the user interface and handle requests</li>
