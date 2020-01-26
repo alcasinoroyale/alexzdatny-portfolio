@@ -11,7 +11,7 @@ class Navbar extends Component {
       <ResponsiveMenu
         menuOpenButton={<FontAwesomeIcon className="bars" icon={faBars}/>}
         menuCloseButton={<FontAwesomeIcon className="exit" icon={faTimes}/>}
-        changeMenuOn="530px"
+        changeMenuOn="600px"
         largeMenuClassName="large-menu-classname"
         smallMenuClassName="small-menu-classname"
         menu={
