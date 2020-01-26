@@ -23,26 +23,16 @@ const About = () => {
       <div className="skills">
         <h1>Skills</h1>
           <div className="icons">
-            <img src={angular} alt="angular" />
-              <h3>Angular</h3>
-            <img src={atom} alt="atom" />
-              <h3>Atom</h3>
-            <img src={css} alt="css" />
-              <h3>CSS 3</h3>
-            <img src={html} alt="html" />
-              <h3>HTML 5</h3>
-            <img src={js} alt="js" />
-              <h3>JavaScript</h3>
-            <img src={jq} alt="jq" />
-              <h3>JQuery</h3>
-            <img src={rails} alt="rails" />
-              <h3>Rails</h3>
-            <img src={react} alt="react" />
-              <h3>React</h3>
-            <img src={redux} alt="redux" />
-              <h3>Redux</h3>
-            <img src={ruby} alt="ruby" />
-              <h3>Ruby</h3>
+            <div className="dev-icon"><img src={angular} alt="angular" /><h3>Angular</h3></div>
+            <div className="dev-icon"><img src={atom} alt="atom" /><h3>Atom</h3></div>
+            <div className="dev-icon"><img src={css} alt="css" /><h3>CSS 3</h3></div>
+            <div className="dev-icon"><img src={html} alt="html" /><h3>HTML 5</h3></div>
+            <div className="dev-icon"><img src={js} alt="js" /><h3>JavaScript</h3></div>
+            <div className="dev-icon"><img src={jq} alt="jq" /><h3>JQuery</h3></div>
+            <div className="dev-icon"><img src={rails} alt="rails" /><h3>Rails</h3></div>
+            <div className="dev-icon"><img src={react} alt="react" /><h3>React</h3></div>
+            <div className="dev-icon"><img src={redux} alt="redux" /><h3>Redux</h3></div>
+            <div className="dev-icon"><img src={ruby} alt="ruby" /><h3>Ruby</h3></div>
           </div>
       </div>
 

@@ -11,20 +11,6 @@ body {
 
 /* Navigation Menu */
 
-@media only screen and (max-width: 530px) {
-  .navMenu a {
-    display: block;
-    text-align: center;
-    background: #0d1921;
-    margin-left: 36px
-  }
-  .bars, .exit {
-    margin-top: 16px;
-    font-size: 36px;
-    color: white;
-  }
-}
-
 .navMenu {
   background: transparent;
   margin-top: 10px;
@@ -58,6 +44,27 @@ body {
   margin-left: auto;
 }
 
+/* Navigation - Responsive */
+
+@media only screen and (max-width: 530px) {
+  .navMenu a {
+    display: block;
+    text-align: center;
+    background: #0d1921;
+    margin-left: 36px
+  }
+  .bars, .exit {
+    margin-top: 16px;
+    font-size: 36px;
+    color: white;
+  }
+  .icons {
+    display: block;
+  }
+}
+
+/* Home Page */
+
 .about {
   background-color: #203a42;
   opacity: 0.94;
@@ -65,8 +72,6 @@ body {
   border-radius: 8px;
   color: #f2f2f2;
 }
-
-/* Home Page */
 
 .about h1 {
   color: #f2f2f2;
@@ -84,8 +89,8 @@ body {
   background-color: #203a42;
   opacity: 0.94;
   margin-top: 30px;
-  padding: 16px;
   border-radius: 8px;
+  padding: 16px;
   color: #f2f2f2;
 }
 
@@ -134,11 +139,17 @@ body {
 
 .icons {
   text-align: center;
-  column-count: 5;
+}
+
+.dev-icon {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
 }
 
 .icons img {
-  width: 30%;
+  width: 60px;
+  height: 60px;
   background-color: white;
   border-radius: 10px;
 }
