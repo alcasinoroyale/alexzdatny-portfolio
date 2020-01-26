@@ -11,6 +11,20 @@ body {
 
 /* Navigation Menu */
 
+@media only screen and (max-width: 530px) {
+  .navMenu a {
+    display: block;
+    text-align: center;
+    background: #0d1921;
+    margin-left: 36px
+  }
+  .bars, .exit {
+    margin-top: 16px;
+    font-size: 36px;
+    color: white;
+  }
+}
+
 .navMenu {
   background: transparent;
   margin-top: 10px;
@@ -20,7 +34,7 @@ body {
 
 .navMenu a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
   padding: 16px 20px;
