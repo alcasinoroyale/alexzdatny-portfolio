@@ -1,19 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom';
 import resume from '../images/alex-zdatny-resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ResponsiveMenu from 'react-responsive-navbar';
 
-class Navbar extends Component {
-  render() {
+const Navbar = () => {
   return (
       <ResponsiveMenu
         menuOpenButton={<FontAwesomeIcon className="bars" icon={faBars}/>}
         menuCloseButton={<FontAwesomeIcon className="exit" icon={faTimes}/>}
         changeMenuOn="600px"
-        largeMenuClassName="large-menu-classname"
-        smallMenuClassName="small-menu-classname"
         menu={
           <div className="navMenu">
             <NavLink to="/" exact>Home</NavLink>
@@ -24,8 +21,7 @@ class Navbar extends Component {
           </div>
         }
       />
-    )
-  }
+  )
 }
 
 export default Navbar
