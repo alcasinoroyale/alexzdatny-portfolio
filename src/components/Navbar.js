@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import resume from '../images/alex-zdatny-resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faHome, faFileAlt, faSuitcase } from '@fortawesome/free-solid-svg-icons';
 import ResponsiveMenu from 'react-responsive-navbar';
 
 const Navbar = () => {
@@ -13,9 +13,9 @@ const Navbar = () => {
         changeMenuOn="600px"
         menu={
           <div className="navMenu">
-            <NavLink to="/" exact>Home</NavLink>
-            <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
-            <NavLink to="/portfolio" exact>Portfolio</NavLink>
+            <NavLink to="/" exact><FontAwesomeIcon className="home" icon={faHome}/> Home</NavLink>
+            <a href={resume} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFileAlt}/> Resume</a>
+            <NavLink to="/portfolio" exact><FontAwesomeIcon icon={faSuitcase}/> Portfolio</NavLink>
             <a href="https://alexzdatny.com" target="_blank" rel="noopener noreferrer">Blog</a>
             <NavLink to="/contact" exact>Contact</NavLink>
           </div>

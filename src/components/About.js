@@ -18,7 +18,7 @@ const About = () => {
     <div>
       <div className="about">
         <h1>About Me</h1>
-        <h4>I'm a Full stack web developer with a passion for content creation and building applications, experienced in HTML/CSS, Ruby on Rails, JavaScript, and React. I discovered web development while studying journalism and creating multi-media packages for feature stories. After becoming immersed in coding as an intern for an analytics startup, I decided to quickly expand my skill set through The Flatiron School. I’m excited to code, collaborate, and learn while helping tech companies evolve.</h4>
+        <h4>I'm a Full Stack Developer with a passion for content creation and building applications, experienced in HTML, CSS, Ruby on Rails, JavaScript, Angular, and React. I discovered web development while studying journalism and creating multi-media packages for feature stories. After becoming immersed in coding as an intern for an analytics startup, I decided to quickly expand my skill set through The Flatiron School. I’m excited to code, collaborate, and learn while helping tech companies evolve.</h4>
         </div>
       <div className="skills">
         <h1>Skills</h1>

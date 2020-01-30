@@ -63,6 +63,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .home {
+    display: none;
+  }
+}
+
 /* Home Page */
 
 .about {
