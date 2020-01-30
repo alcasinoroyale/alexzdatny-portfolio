@@ -46,12 +46,11 @@ body {
 
 /* Navigation - Responsive */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .navMenu a {
     display: block;
     text-align: center;
     background: #0d1921;
-    margin-left: 36px
   }
   .bars, .exit {
     margin-top: 16px;
@@ -61,10 +60,15 @@ body {
   .icons {
     display: block;
   }
+  .navMenu {
+    text-align: center;
+    margin-left: 40px;
+    background: #0d1921;
+  }
 }
 
-@media only screen and (min-width: 600px) {
-  .home {
+@media only screen and (min-width: 650px) {
+  .nav-icon {
     display: none;
   }
 }
