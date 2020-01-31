@@ -17,8 +17,8 @@ const Contact = () => {
       </form>
         <div className="contact-info">
           <img src={headshot} class="headshot" alt="headshot" />
-          <h4>Cell: 732-887-3198</h4>
-          <h4>Email: alexzdatny@gmail.com</h4>
+          <h3>CELL</h3>732-887-3198
+          <h3>EMAIL</h3>alexzdatny@gmail.com
         </div>
       </div>
     </div>
