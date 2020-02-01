@@ -7,10 +7,14 @@ const Contact = () => {
       <h1>Contact Me</h1>
       <div className="contact-content">
       <form className="contact-form">
-        <label>Name</label>
-          <input type="text" name="name" />
-        <label>Email</label>
-          <input type="email" name="email" />
+        <div className="name">
+          <label>First Name<input type="text" name="firstName" /></label>
+          <label>Last Name<input type="text" name="lastName" /></label>
+        </div>
+        <div className="info">
+          <label>Email<input type="email" name="email" /></label>
+          <label>Subject<input type="text" name="subject" /></label>
+        </div>
         <label>Message</label>
           <textarea name="message" />
         <input type="submit" value="Submit" />
