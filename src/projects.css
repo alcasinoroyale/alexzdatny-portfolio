@@ -34,6 +34,7 @@
 
 .projects button:hover {
   background-color: #005975;
+  font-size: 16px;
 }
 
 .project-box h1 {
@@ -111,4 +112,12 @@
 
 img {
   border-radius: 4px;
+}
+
+.previews img {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  padding: 8px;
+  margin: 8px;
 }
