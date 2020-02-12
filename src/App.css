@@ -12,9 +12,10 @@ body {
 /* Navigation Menu */
 
 .navMenu {
-  background: transparent;
-  margin-top: 10px;
-  margin-right: 40px;
+  background-color: black;
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
   text-align: right;
 }
 
@@ -39,7 +40,7 @@ body {
 .routes {
   height: 60%;
   width: 70%;
-  margin-top: 20px;
+  margin-top: 36px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -47,6 +48,11 @@ body {
 /* Navigation - Responsive */
 
 @media only screen and (max-width: 650px) {
+  .navMenu {
+    margin-top: 10px;
+    margin-right: 40px;
+    line-height: 1.5px;
+  }
   .navMenu a {
     display: block;
     text-align: center;
@@ -197,13 +203,4 @@ body {
 .contact-info h3 {
   max-width: 100%;
   height: auto;
-}
-
-input[type=submit] {
-  background-color: #355c66;
-  padding: 12px 20px;
-  color: #f5f5f5;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 4px;
 }

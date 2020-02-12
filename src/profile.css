@@ -5,15 +5,17 @@
 }
 
 .profile-container h1 {
+  padding-top: 20px;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 70px;
+  font-size: 100px;
 }
 
 .profile-container h2 {
   color: white;
-  margin-top: -20px;
+  margin-top: -40px;
   letter-spacing: 2px;
+  font-size: 32px;
 }
 
 .social-media-icons .git {
@@ -65,4 +67,10 @@
 
 .linkedin-icon:hover {
   font-size: 60px;
+}
+
+@media only screen and (max-width: 650px) {
+  .profile-container {
+    padding-top: 100px;
+  }
 }
