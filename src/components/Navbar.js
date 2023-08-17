@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import resume from '../images/alex-zdatny-resume.pdf'
+import resume from '../images/alex-zdatny-updated-resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes, faHome, faFileAlt, faSuitcase, faBlog, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 import ResponsiveMenu from 'react-responsive-navbar';
