@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b483be03.css",
+    "main.js": "/static/js/main.243f91f4.js",
+    "static/media/reel2real.png": "/static/media/reel2real.780f5d3da204078d2598.png",
+    "static/media/mountains.jpg": "/static/media/mountains.c398329107f73135a277.jpg",
+    "static/media/albums.png": "/static/media/albums.70f5ee6ccdfadfdd0f05.png",
+    "static/media/renecades.png": "/static/media/renecades.fddee21736b628c4b9a8.png",
+    "static/media/coding.jpg": "/static/media/coding.c0dd6e3565861a128048.jpg",
+    "static/media/favoritefilms.png": "/static/media/favoritefilms.cf2b3dd782c5143fc3f1.png",
+    "static/media/headshot.jpg": "/static/media/headshot.69a48e258c3678f24a40.jpg",
+    "static/media/alex-zdatny-updated-resume.pdf": "/static/media/alex-zdatny-updated-resume.676eae09463d57dbca78.pdf",
+    "static/media/angular.png": "/static/media/angular.6c0c9b5bb0b069e21dc7.png",
+    "static/media/rails.png": "/static/media/rails.b17aced9eaeb8bc651ca.png",
+    "static/media/react.png": "/static/media/react.39bb1789365139ab0be7.png",
+    "index.html": "/index.html",
+    "main.b483be03.css.map": "/static/css/main.b483be03.css.map",
+    "main.243f91f4.js.map": "/static/js/main.243f91f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b483be03.css",
+    "static/js/main.243f91f4.js"
+  ]
+}
