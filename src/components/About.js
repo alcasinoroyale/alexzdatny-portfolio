@@ -3,7 +3,6 @@ import coding from '../images/coding.jpg'
 import albums from '../images/albums.png'
 import films from '../images/favoritefilms.png'
 import angular from '../icons/angular.png'
-import atom from '../icons/atom.png'
 import css from '../icons/css.png'
 import html from '../icons/html.png'
 import js from '../icons/javascript.png'
@@ -24,7 +23,6 @@ const About = () => {
         <h1>Skills</h1>
           <div className="icons">
             <div className="dev-icon"><img src={angular} alt="angular" /><h3>Angular</h3></div>
-            <div className="dev-icon"><img src={atom} alt="atom" /><h3>Atom</h3></div>
             <div className="dev-icon"><img src={css} alt="css" /><h3>CSS 3</h3></div>
             <div className="dev-icon"><img src={html} alt="html" /><h3>HTML 5</h3></div>
             <div className="dev-icon"><img src={js} alt="js" /><h3>JavaScript</h3></div>
