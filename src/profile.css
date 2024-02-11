@@ -25,7 +25,7 @@
   padding-right: 3px;
 }
 
-.social-media-icons .twitter {
+.social-media-icons .instagram {
   background-color: white;
   border-radius: 5px;
   padding-left: 3px;
@@ -49,13 +49,13 @@
   font-size: 60px;
 }
 
-.twitter-icon {
+.instagram-icon {
   font-size: 50px;
-  color: #55ACEE;
+  color: purple;
   padding: 20px;
 }
 
-.twitter-icon:hover {
+.instagram-icon:hover {
   font-size: 60px;
 }
 
